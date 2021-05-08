@@ -2179,7 +2179,7 @@ f .yzmplayer.yzmplayer-mobile .yzmplayer-controller .yzmplayer-icons .yzmplayer-
 
 .yzmplayer-video-wrap {
 	position: relative;
-	background: #FF0000;
+	background: #111111;
 	font-size: 0;
 	width: 100%;
 	height: 100%
@@ -2712,8 +2712,8 @@ ul::-webkit-scrollbar-track {
 }
 
 #loading-box .video-panel-blur-image{
-	/*background: url(../img/20200519222902.jpg) #000000;*/
-	background: url(../img/search-bg.jpg) #000000;
+	background: url(../img/20200519222902.jpg) #000000;
+	/* background: url(../img/search-bg.jpg) #000000; */
 	display: block;
     width: 110%;
     height: 110%;
