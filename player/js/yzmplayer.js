@@ -975,8 +975,8 @@
 							e.infoPanel.triggle()
 						}
 					}, {
-						text: "雾时之森",
-						link: "https://m1314.cn"
+						text: "电影侠",
+						link: "https://k2v2.com"
 					}]), e
 			}
 		},
