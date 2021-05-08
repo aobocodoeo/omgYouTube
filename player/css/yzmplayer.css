@@ -2711,21 +2711,20 @@ ul::-webkit-scrollbar-track {
 
 }
 
-#loading-box .video-panel-blur-image{
+#loading-box .video-panel-blur-image {
 	background: url(../img/20200519222902.jpg) #000000;
-	/* background: url(../img/search-bg.jpg) #000000; */
 	display: block;
-    width: 110%;
-    height: 110%;
-    position: absolute;
-    left: -5%;
-    top: -5%;
-    background-size: cover;
-    background-position: 50%;
-    -webkit-filter: blur(35px);
-    -moz-filter: blur(35px);
-    -ms-filter: blur(35px);
-    filter: blur(35px);
+	width: 110%;
+	height: 110%;
+	position: absolute;
+	left: -5%;
+	top: -5%;
+	background-size: cover;
+	background-position: 50%;
+	-webkit-filter: blur(30px);
+	-moz-filter: blur(30px);
+	-ms-filter: blur(30px);
+	filter: blur(30px);
 }
 
 #loading-boxad #close {
