@@ -107,13 +107,13 @@ var YZM = {
 		setTimeout(function() {
 			$("#link3,#span").fadeIn();
 		}, 2 * 1000);
-		if (YZM.versions.weixin && (YZM.versions.ios || YZM.versions.iPad)) {
-			var css = '<style type="text/css">';
-			css += '#loading-box{display: none;}';
-			css += '</style>';
-			$('body').append(css).addClass("");
+		// if (YZM.versions.weixin && (YZM.versions.ios || YZM.versions.iPad)) {
+		// 	var css = '<style type="text/css">';
+		// 	css += '#loading-box{display: none;}';
+		// 	css += '</style>';
+		// 	$('body').append(css).addClass("");
 
-		}
+		// }
 		YZM.danmu.send();
 		YZM.danmu.list();
 		YZM.def();
